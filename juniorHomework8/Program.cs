@@ -19,7 +19,6 @@ namespace juniorHomework8
 
             Console.Write("Введите количество человек в очереди: ");
             peopleQueue = Convert.ToInt32(Console.ReadLine());
-
             totalWaitingTime = peopleQueue * minutesPerPerson;
             waitingHours = totalWaitingTime / minutesPerHour;
             waitingMinutes = totalWaitingTime % minutesPerHour;
