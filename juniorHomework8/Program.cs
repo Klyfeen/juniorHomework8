@@ -23,7 +23,6 @@ namespace juniorHomework8
             totalWaitingTime = peopleQueue * minutesPerPerson;
             waitingHours = totalWaitingTime / minutesPerHour;
             waitingMinutes = totalWaitingTime % minutesPerHour;
-
             Console.WriteLine($"Вы должны отстоять в очереди {waitingHours} часа и {waitingMinutes} минут.");
         }
     }
